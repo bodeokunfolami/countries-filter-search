@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Table</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading">Countries</h1>
+        <form action="" method="POST">
+            <div class="form-group">
+                <input type="text" name="search" id="search-input" placeholder="search countries">
+                <span id="search-icon">
+                    <img class="icon" src="img/search.png" alt="">
+                </span>
+            </div>
+        </form>
+        <div style="overflow: auto">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Flag</th>
+                        <th>Country Code</th>
+                        <th>Name</th>
+                        <th>Capital</th>
+                        <th>Region</th>
+                        <th>Currency</th>
+                        <th>Call Code</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
